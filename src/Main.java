@@ -14,8 +14,10 @@ public class Main {
         System.out.println();
 
         Animal animal2 = new Dog();
+        Dog dog = new Dog();
         System.out.println(animal2.speak());
         System.out.println(animal2.eat());
+        System.out.println(dog.eat());
 
         System.out.println();
         Cow cow = new Cow();
