@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class Leo {
+public class Leo extends Animal {
+    @Override
+    public String speak() {
+        String speak = "Leo is growls...";
+        return speak;
+    }
 }

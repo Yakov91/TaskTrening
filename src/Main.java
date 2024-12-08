@@ -5,5 +5,15 @@ public class Main {
 
         Animal animal = new Animal();
         System.out.println(animal.speak());
+
+        System.out.println();
+
+        Animal animal1 = new Leo();
+        System.out.println(animal1.speak());
+
+        System.out.println();
+
+        Animal animal2 = new Dog();
+        System.out.println(animal2.speak());
     }
 }
