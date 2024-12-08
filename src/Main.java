@@ -20,5 +20,9 @@ public class Main {
         Cow cow = new Cow();
         System.out.println(cow.speak());
         System.out.println(cow.eat());
+
+        System.out.println();
+        Duck duck = new Duck();
+        System.out.println(duck.speak());
     }
 }
