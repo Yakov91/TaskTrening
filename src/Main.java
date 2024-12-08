@@ -17,7 +17,8 @@ public class Main {
         System.out.println(animal2.speak());
 
         System.out.println();
-        Animal animal3 = new Cow();
-        System.out.println(animal3.speak());
+        Cow cow = new Cow();
+        System.out.println(cow.speak());
+        System.out.println(cow.eat());
     }
 }
